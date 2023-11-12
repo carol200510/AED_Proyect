@@ -1,11 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: #4B82BF;
 }
 .flex-container{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
