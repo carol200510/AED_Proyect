@@ -1,8 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #4B82BF;
+    background-color: #A4CDDE;
 }
+
 .flex-container{
     height: 100vh;
     display: flex;
@@ -15,7 +16,4 @@ a{
     color: inherit;
 }
 
-.form-control
-{
-    size: 100px !important; 
-}
+.form-control { size: 100px !important; }
