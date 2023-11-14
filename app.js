@@ -25,6 +25,18 @@ app.get("/home", (req, res) =>{
     res.render("home.ejs");
 });
 
+app.get("/factura", (req, res) =>{
+    res.render("factura.ejs");
+});
+
+app.get("/compra", (req, res) =>{
+    res.render("compra.ejs");
+});
+
+app.get("/carrito", (req, res) =>{
+    res.render("carrito.ejs");
+});
+
 app.post("/register", (req, res) =>{
     res.render("home.ejs");
 });
