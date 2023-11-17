@@ -1,9 +1,19 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #A4CDDE;
+    background-color: #CF7F70;
 }
 
+h1{
+    font-family: 'Jost', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    color: #FFF;
+}
+
+h2{
+    font-size: 22px;
+    color: #FFF;
+}
 .flex-container{
     height: 100vh;
     display: flex;
@@ -11,9 +21,24 @@ body{
     align-items: center;
 }
 
+img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 a{
     text-decoration: none;
     color: inherit;
 }
 
-.btn{margin-right: 10px;}
+.btn{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 17px;
+}

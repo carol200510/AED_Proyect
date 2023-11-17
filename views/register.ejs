@@ -9,21 +9,42 @@
 </head>
 
 <body>
-    <form action="/register" method="post">
-        <div class="mb-3">
-            <input placeholder="Nombre" type="text" class="form-control" id="exampleInputPassword1">
+  <div class="flex-container">
+    <div class="mb-3 row">
+      <h1>Registrarse</h1>
+    </div>
+    <div class="mb-3 row">
+      <div class="col">
+        <img src="/images/profile2.png">
+      </div>
+        
+    </div>
+    <div class="mb-3 row">
+      <form action="/register" method="post">
+        <div class="mb-3 row g-3">
+          <div class="col-8">
+              <input placeholder="Nombre" type="text" class="form-control">
+          </div>
         </div>
-        <div class="mb-3">
-            <input placeholder="Apellido" type="text" class="form-control" id="exampleInputPassword1">
+        <div class="mb-3 row g-3">
+          <div class="col-8">
+              <input placeholder="Apellido" type="text" class="form-control">
+          </div>
         </div>
-        <div class="mb-3">
-          <input placeholder="Correo" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="mb-3 row g-3">
+          <div class="col-8">
+              <input placeholder="Correo" type="email" class="form-control" aria-describedby="emailHelp">
+          </div>
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-        <div class="mb-3">
-          <input placeholder="Contraseña" type="password" class="form-control" id="exampleInputPassword1">
+        <div class="mb-3 row g-3">
+          <div class="col-8">
+              <input placeholder="Contraseña" type="password" class="form-control" id="exampleInputPassword1">
+          </div>    
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+    </div>
+  </div>
 </body>
 </html>
