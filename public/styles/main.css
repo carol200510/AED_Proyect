@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #CF7F70;
+    background-color: #67D657;
 }
 
 h1{
@@ -41,4 +41,9 @@ a{
 
 p{
     font-size: 17px;
+}
+
+#navbar{
+    
+    background-color: #8CE080;
 }
